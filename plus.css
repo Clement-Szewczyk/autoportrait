@@ -1,0 +1,46 @@
+.arrow button {
+    
+    position: fixed;
+    background: none;
+    border: none;
+}
+
+.arrow button i {
+    font-size: 2em;
+    color: #000000;
+}
+
+.arrow button:hover i {
+    color: gray;
+}
+
+h1{
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #0f9004, #000000 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.croix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.croix i{
+    font-size: 8em;
+    color: #00d824;
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texte p{
+    font-size: 1.2em;
+}
+

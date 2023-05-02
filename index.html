@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément Szewczyk</title>
+    <link rel="stylesheet" href="./accueil.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+</head>
+<body>
+    <div class="global">
+        <div class="image">
+            <img src="./img/clement.jpg" alt="clement">
+        </div>
+        <div class="infos">
+            <h2>Clément Szewczyk</h2>
+            <p>19 ans</p>
+            <p> <i class="fa fa-home" aria-hidden="true"></i> 
+                Vit à : Lille</p>
+            <p> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                A 0km de vous</p>
+        </div>
+        <div class="passion">
+            <button id="toto"><h4>Informatique</h4></button>
+            <button id="titi"><h4>Musique</h4></button>
+            <button id="tata"><h4>Maker</h4></button>
+            <button id="tutu"><h4>Cyclisme</h4></button>
+        </div>
+        <div class="fin">
+            <button id="moins"><i class="fa fa-times" aria-hidden="true"></i></button>
+            <button id="star"><i class="fa fa-star" aria-hidden="true"></i></button>
+            <button id="plus"><i class="fa fa-check" aria-hidden="true"></i></button>
+          
+        </div>
+    </div>
+    <script>
+        // redirection vers la page informatique.html
+        document.getElementById("toto").addEventListener("click", function(){
+            window.location.href = "informatique.html";
+        });
+        // redirection vers la page musique.html
+        document.getElementById("titi").addEventListener("click", function(){
+            window.location.href = "musique.html";
+        });
+        // redirection vers la page maker.html
+        document.getElementById("tata").addEventListener("click", function(){
+            window.location.href = "maker.html";
+        });
+        // redirection vers la page cyclisme.html
+        document.getElementById("tutu").addEventListener("click", function(){
+            window.location.href = "cyclisme.html";
+        });
+        document.getElementById("moins").addEventListener("click", function(){
+            window.location.href = "moins.html";
+        });
+        document.getElementById("star").addEventListener("click", function(){
+            window.location.href = "star.html";
+        });
+        document.getElementById("plus").addEventListener("click", function(){
+            window.location.href = "plus.html";
+        });
+    </script>
+</body>
+</html>

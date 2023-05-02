@@ -1,0 +1,39 @@
+.arrow button {
+    /* fixer le bouton en haut */
+    position: fixed;
+    background: none;
+    border: none;
+}
+
+.arrow button i {
+    font-size: 2em;
+    color: #000000;
+}
+
+.arrow button:hover i {
+    color: gray;
+}
+
+h1{
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #ff0000, #4000ff 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.code p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.code img{
+    width:40%;
+    padding-right:20px   ;
+}

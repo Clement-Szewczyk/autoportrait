@@ -1,0 +1,34 @@
+.arrow button {
+    
+    position: fixed;
+    background: none;
+    border: none;
+}
+
+.arrow button i {
+    font-size: 2em;
+    color: #000000;
+}
+
+.arrow button:hover i {
+    color: gray;
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.texte i:nth-child(1) {
+    font-size: 8em;
+    color: #b89600;
+}
+
+.texte .qy{
+    font-size: 8em;
+    color: #000dfc;
+}
+

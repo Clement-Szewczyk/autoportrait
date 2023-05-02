@@ -1,0 +1,44 @@
+.arrow button {
+    position: fixed;
+    background: none;
+    border: none;
+}
+
+.arrow button i {
+    font-size: 2em;
+    color: #000000;
+}
+
+.arrow button:hover i {
+    color: gray;
+}
+
+h1{
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #ff0000, #178000 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texte p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image img{
+    margin-left: 12px;
+}
